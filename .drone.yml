@@ -13,8 +13,4 @@ steps:
     when:                                # 當觸發條件為 master 分支時會執行的動作
       branch:
       - master
-trigger:     # 觸發 pipeline 條件，分支為 master，且進行 push 行為
-  branch: 
-  - master
-  event:
-  - push
+
