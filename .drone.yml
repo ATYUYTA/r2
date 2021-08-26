@@ -13,5 +13,7 @@ steps:
     when:                                # 當觸發條件為 master 分支時會執行的動作
       branch:
       - master
-
+trigger:
+  branch:
+  - master
 
