@@ -5,7 +5,7 @@ name: default       # 可自行定義的名稱
 
 steps:
   - name: self-plugin                    # 事件一：可自行定義的名稱
-    image: fordlinox/pt1:v1.0    # 使用 neil605164/drone-plugin-ex  容器
+    image: fordlinox/pt1:v2.0    # 使用 neil605164/drone-plugin-ex  容器
     settings:
       hello: "Wow"                       # 提供 hello 值為「Wow」，若不提供則為「default」值
     commands:                            # 驗證是否有接收到帶入的值
