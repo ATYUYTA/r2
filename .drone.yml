@@ -9,7 +9,7 @@ steps:
     settings:
       hello: "Wow"                       # 提供 hello 值為「Wow」，若不提供則為「default」值
     commands:                            # 驗證是否有接收到帶入的值
-    - echo $PLUGIN_HELLO                 
+    - echo $HELLO                 
     when:                                # 當觸發條件為 master 分支時會執行的動作
       branch:
       - master
